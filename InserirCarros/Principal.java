@@ -27,9 +27,9 @@ public class Principal {
 
         System.out.println("Digite a Cor do Carro");
 
-        cor1.cor = ler.next();
-        cor2.cor = ler.next();
-        cor3.cor = ler.next();
+        cor1.cor = ler.nextLine();
+        cor2.cor = ler.nextLine();
+        cor3.cor = ler.nextLine();
 
         System.out.println("Digite o preço do carro: ");
 
@@ -40,8 +40,11 @@ public class Principal {
         ExibicaoDados exibir = new ExibicaoDados();
 
         exibir.mostrarResultado(marca1.marca , cor1.cor , preco1.preco);
+        System.out.println("\n");
         exibir.mostrarResultado(marca2.marca , cor2.cor , preco2.preco);
+        System.out.println("\n");
         exibir.mostrarResultado(marca3.marca , cor3.cor , preco3.preco);
+        System.out.println("\n");
 
 
 
