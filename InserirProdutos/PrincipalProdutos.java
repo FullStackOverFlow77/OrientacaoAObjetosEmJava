@@ -20,6 +20,7 @@ public class PrincipalProdutos {
 
         System.out.println("Quantity: ");
         produtos.quantity = sc.nextInt();
+        System.out.println(produtos);
 
         System.out.println(produtos.name + " " + produtos.price + " " + produtos.quantity + " " );
         
