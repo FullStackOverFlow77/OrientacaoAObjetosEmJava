@@ -20,9 +20,26 @@ public class PrincipalProdutos {
 
         System.out.println("Quantity: ");
         produtos.quantity = sc.nextInt();
-        System.out.println(produtos);
+        
+        System.out.println("Product data: " + produtos.toString());
 
-        System.out.println(produtos.name + " " + produtos.price + " " + produtos.quantity + " " );
+        System.out.println();
+        System.out.println("Enter the number for add Stock: " );
+        int quantity = sc.nextInt();
+        produtos.addProducts(quantity);
+
+        System.out.println();
+        System.out.println("Update Data: " + produtos);
+
+        System.out.println();
+        System.out.println("Enther the number for remove Stock: " );
+        quantity = sc.nextInt();
+        produtos.removeProducts(quantity);
+
+        System.out.println();
+        System.out.println("Final: " + produtos);
+
+        
         
         sc.close();
     }
