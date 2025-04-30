@@ -22,12 +22,12 @@ public class JavaPrincipal {
         ano2 = new ClasseJava(); 
         ano3 = new ClasseJava();
         
-        System.out.println("Digite o nome dos Livros");
+        System.out.println("Digite o nome dos Livros:        ");
         livro1.livro = ler.nextLine();
         livro2.livro = ler.nextLine();
         livro3.livro = ler.nextLine();
 
-        System.out.println("Digite o nome dos Autores");
+        System.out.println("Digite o nome dos Autores ");
         autor1.autor = ler.nextLine();
         autor2.autor = ler.nextLine();
         autor3.autor = ler.nextLine();
@@ -38,6 +38,13 @@ public class JavaPrincipal {
         ano3.ano = ler.nextInt();
 
         ExibicaoBiliotoeca mostrarResultado = new ExibicaoBiliotoeca();
+
+        mostrarResultado.mostrar(livro1,autor1, ano1);
+        System.out.println();
+        mostrarResultado.mostrar(livro2,autor2, ano2);
+        System.out.println();
+        mostrarResultado.mostrar(livro3,autor3, ano3);
+        System.out.println();
 
 
 
