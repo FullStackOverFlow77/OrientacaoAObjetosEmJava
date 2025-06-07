@@ -20,5 +20,6 @@ public class MainPizzaria{
         System.out.println(pizza.toString()); // Chama o método toString() e imprime o resultado
 
         ler.close();
+        
     }
 }

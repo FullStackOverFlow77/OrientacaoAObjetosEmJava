@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 import Atividade2Etapas.ClasseAtividade;
 
+
+
 public class MainAtividade{
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
