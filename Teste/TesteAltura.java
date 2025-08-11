@@ -27,7 +27,7 @@ public class TesteAltura {
             System.out.printf("Nome: %s | Idade: %d | Altura: %.2f%n " , nome[i] , idade[i] , altura[i] );
         }
 
-        System.out.println("Pessoas maiores de 18 anos \n");
+        System.out.println(" Pessoas maiores de 18 anos \n");
 
         for(int i=0;i<n;i++){
             if(idade[i] >= 18){
